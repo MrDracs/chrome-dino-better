@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dino Run Story - Tests</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #testResults p { margin: 5px 0; }
+        #gameCanvas { border: 1px solid lightgray; } /* Optional: for visual debugging */
+    </style>
+</head>
+<body>
+    <h1>Dino Run Story - Test Results</h1>
+    <div id="testResults"></div>
+
+    <!-- Canvas required by game.js for context creation, even if not rendered -->
+    <canvas id="gameCanvas" width="800" height="600" style="display:none;"></canvas>
+
+    <!--
+      Assuming game.js is a single bundle of all compiled TypeScript.
+      If game.ts was compiled to an ES6 module, tests.js would also need to be a module
+      and import entities from game.js.
+    -->
+    <script src="game.js" defer></script>
+    <script src="tests.js" defer></script>
+</body>
+</html>
