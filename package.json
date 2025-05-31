@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "a better rendition of the chrome's dino game",
+  "main": "dist/game.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "lite-server --baseDir=\".\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDracs/chrome-dino-better.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrDracs/chrome-dino-better/issues"
+  },
+  "homepage": "https://github.com/MrDracs/chrome-dino-better#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.8.3",
+    "vercel": "^42.3.0"
+  }
+}
